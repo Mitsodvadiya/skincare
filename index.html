@@ -14,15 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header class="container-fluid">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between">
+     <header class="container-fluid">
+        <div class="container position-relative">
+            <div class="background-box-header"></div>
+            <nav class="navbar navbar-expand-lg justify-content-between ">
                 <div class="container-fluid">
-                  <a class="" href="#"><img src="./images/logo.png" alt=""></a>
+                  <a class="bg-transparent" href="#"><img src="./images/logo.svg" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                  <div class="collapse navbar-collapse justify-content-end gap-5" id="navbarSupportedContent"> 
                     <ul class="navbar-nav menu">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Shop</a>
@@ -63,12 +64,15 @@
                 </div>
               </nav>
         </div>
-    </header> -->
+    </header> 
+  
+    
     <main class="d-flex flex-column">
 
         <!-- =========HERO SECTION STRAT================ -->
         <!-- <img src="images/bag.svg" alt=""> -->
-        <section class="container-fluid" id="hero">
+        <section class="container-fluid  position-relative" id="hero">
+            <div class="background-box-hero"></div>
             <div class="container">
                 <div class="row justify-content-between">
 
@@ -152,6 +156,7 @@
 
         <!-- ===============ATTRIBUTES START====================== -->
          <section class="container-fluid" id="attributes">
+            <div class="container">
             <div class="row overflow-auto">
                 <div class="col d-inline-flex align-items-center attribute">
                     <div class="att-icon">
@@ -193,6 +198,7 @@
                     </div>
                 </div>
             </div>
+        </div>
          </section>
          <!-- ===============ATTRIBUTES END====================== -->
 
@@ -337,8 +343,10 @@
         <!-- =======================TRIAL END==================== -->
 
         <!-- =======================SHOP BY PRODUCT START==================== -->
-
-        <section class="container d-flex flex-column" id="ShopByProduct">
+        <div class="container-fluid position-relative">
+            <div class="background-box-shop-product"></div>
+        <section class="container d-flex flex-column " id="ShopByProduct">
+           
             <div class="row">
                 <div class="col text-center">
                     <span class="offer-heading">Shop by <span class="offer-heading-700">Product Type</span></span>
@@ -417,12 +425,14 @@
                 
             </div>
         </section>
-
+    </div>
         <!-- =======================SHOP BY PRODUCT END==================== -->
 
         <!-- =======================THE SELF LINE START==================== -->
-         
+         <div class="container-fluid position-relative">
+            <div class="background-box-self"></div>
         <section class="container overflow-hideen" id="SelfLine">
+            
             <div class="row align-items-center">
                 <div class="col-md order-2 order-md-1">
                     <div class="content-selfline d-flex flex-column">
@@ -451,6 +461,7 @@
                 </div>
             </div>
         </section>
+    </div>
 
         <!-- =======================THE SELF LINE END==================== -->
 

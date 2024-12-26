@@ -983,3 +983,46 @@ ul.icons li a img{
         display: none;
     }
 }
+.bg-transparent{
+    background: transparent;
+}
+.background-box-header{
+    background: rgb(252,37,204);
+    background: radial-gradient(circle, rgba(252,37,204,.10) 0%, rgba(252,37,204,.10) 5%, rgba(255,255,255,1) 100%);
+    width: 301px;
+    height: 299px;
+    position: absolute;
+    top:-87px;
+    left: -41px;
+}
+.background-box-hero{
+   background: url("./images/hero-bg.svg") no-repeat;
+   background-size: cover;
+   width: 306px;
+    height: 303px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.background-box-shop-product{
+   background: url("./images/shop-product-bg.svg") no-repeat;
+   background-size: contain;
+   width: 538px;
+   height: 532px;
+   right: -250px;
+   top: -550px;
+   transform: translateY(50%);
+   position: absolute;
+   z-index: 10;
+}
+.background-box-self{
+   background: url("./images/self-bg.svg") no-repeat;
+   background-size: contain;
+   width: 288px;
+   height: 284px;
+   left: 0px;
+   top: -250px;
+   transform: translateY(50%);
+   position: absolute;
+   z-index: 10;
+}
