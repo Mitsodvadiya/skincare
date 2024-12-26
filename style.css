@@ -1026,3 +1026,6 @@ ul.icons li a img{
    position: absolute;
    z-index: 10;
 }
+.container-fluid{
+    overflow: hidden;
+}
